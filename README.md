@@ -10,9 +10,10 @@ The dataset is a TSV file and can be downloaded from this URL( https://bit.ly/3h
 
 text: The tweet content.
 target: The label (yes/no).
-Steps
 
-**Data Preprocessing:**
+**Steps**
+
+Data Preprocessing:
 
 Remove URLs, hashtags, and unnecessary characters.
 Convert text to lowercase, remove stop words, and apply lemmatization.
