@@ -1,15 +1,18 @@
 # Cancer-tweets-classification
 
-Overview
+**Overview**
+
 This project uses text data to build a classification model to predict whether a tweet discusses cancer. The dataset contains tweets labeled as either talking about cancer ("yes") or not ("no"). We employ various machine learning models to solve this classification problem.
 
-Dataset
+**Dataset**
+
 The dataset is a TSV file and can be downloaded from this URL( https://bit.ly/3h2hDuw). It contains two columns:
 
 text: The tweet content.
 target: The label (yes/no).
 Steps
-Data Preprocessing:
+
+**Data Preprocessing:**
 
 Remove URLs, hashtags, and unnecessary characters.
 Convert text to lowercase, remove stop words, and apply lemmatization.
@@ -24,10 +27,14 @@ Evaluation:
 
 Accuracy, precision, recall, and F1-score were used for model performance evaluation.
 Confusion matrices and classification reports were generated for insights.
-Requirements
+
+**Requirements**
+
 Python 3.x
+
 Libraries: pandas, scikit-learn, nltk, textblob, seaborn, wordninja
-Usage
+
+**Usage**
 Clone the repository.
 Install the required libraries using pip install -r requirements.txt.
 Run the notebook or script to train and test the models
